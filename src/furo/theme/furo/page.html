@@ -28,6 +28,85 @@
 {%- endif %}
 
 <div class="page">
+  <!-- DESKTOP HEADER -->
+  <header class="header">
+    <a class="header__logo" href="#">CWK</a>
+    <div class="header__toggle">
+        <i class="bx bx-menu" id="header-toggle"></i>
+    </div>
+    <nav class="nav" id="nav-menu">
+        <div class="nav__content bg-grid">
+            <a class="nav__profil" href="#">
+                <div class="nav__img">
+                    <img src="https://codwerk.github.io/assets/images/logo_codwerk-new.png" alt="" />
+                </div>
+                <div>
+                    <span class="nav__name">Elastic Docs</span>
+                </div>
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#">Get Started</a></li>
+                    <li class="nav__item dropdown">
+                        <a class="nav__link dropdown__link" href="#">
+                            Solutions<i class="bx bx-chevron-down dropdown__icon"></i>
+                            <ul class="dropdown__menu">
+                                <li class="dropdown__item">
+                                    <a class="nav__link" href="#">Search</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="nav__link" href="#">Security</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="nav__link" href="#">Observability</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="nav__item dropdown">
+                      <a class="nav__link dropdown__link" href="#">
+                          Platform
+                          <i class="bx bx-chevron-down dropdown__icon"></i>
+                          <ul class="dropdown__menu">
+                              <li class="dropdown__item">
+                                  <a class="nav__link" href="#">Elasticsearch</a>
+                              </li>
+                              <li class="dropdown__item">
+                                  <a class="nav__link" href="#">Logstash</a>
+                              </li>
+                              <li class="dropdown__item">
+                                  <a class="nav__link" href="#">Beats</a>
+                              </li>
+                          </ul>
+                      </a>
+                  </li>
+                    <li class="nav__item dropdown">
+                        <a class="nav__link dropdown__link" href="#">
+                            API
+                            <i class="bx bx-chevron-down dropdown__icon"></i>
+                            <ul class="dropdown__menu">
+                                <li class="dropdown__item">
+                                    <a class="nav__link" href="#">Elasticsearch</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="nav__link" href="#">Logstash</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="nav__link" href="#">Beats</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Release Docs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+  <!-- MOBILE HEADER -->
   <header class="mobile-header">
     <div class="header-left">
       <label class="nav-overlay-icon" for="__navigation">
